@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Page</title>
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+}
+ .main-container{
+    min-height: 8%;
+    background: rgba(215, 231, 241, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+} 
+.nav-link{
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+/* to shorten icon */
+.main-container img {
+    width: 220px;
+}
+.nav-item{
+    width: 180px;
+    height: 40px;
+    background: rgba(5,231,21,.5);
+    padding: 5px 5px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px black;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 30%;
+    font-size: 18px;
+}
+.buttons{
+    width: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+.btn, .btn1{
+    width: 200px;
+    background: goldenrod;
+    border: none;
+    height: 40px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px 15px;
+}
+.thankYou{
+    width: 60%;
+}
+    </style>
+</head>
+<body>
+    <div class="myContainer">
+        <div class="main-container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><img src="images/logo1.png"></a><!-- replace with logo -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i><!-- delete span inlieu place icon cdn link -->
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> 
+                         <ul class="navbar-nav ml-auto text-right">
+                            
+                             <a class="nav-item nav-link" href="index.html">Back to Page1</a>
+                         </ul>
+                      
+                     </div> 
+                </nav>
+            </div>
+            </div>
+
+
+
+        <div class="text">To reserve, either you call us using the below telephone number <br> or contact us
+        using the below provided email address. <br>  
+        <div class="buttons">
+        <button class="btn">Phone-reservation</button>
+        <button class="btn1">Email-reservation</button>
+        </div>
+        <img src="images/heartIcon.png" alt="" class="thankYou">
+    </div>
+    </div>
+     <script src="reserve.js"></script>
+</body>
+</html>
+

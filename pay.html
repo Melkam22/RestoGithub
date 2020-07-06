@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Page</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+}
+ .main-container{
+    min-height: 8%;
+    background: rgba(215, 231, 241, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+} 
+.nav-link{
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+/* to shorten icon */
+.main-container img {
+    width: 220px;
+}
+.nav-item{
+    width: 180px;
+    height: 40px;
+    background: rgba(5,231,21,.5);
+    padding: 5px 5px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px black;
+}
+.content{
+    width: 80%;
+    min-height: 5%;
+    margin-top: 30%;
+    background: linear-gradient(tomato,lightgrey,silver, white, darkgrey, skyblue);
+    margin-left: 10%;
+    padding: 2px 5px;
+    text-align: justify;
+}
+strong{
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="myContainer">
+        <div class="main-container">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><img src="images/logo1.png"></a><!-- replace with logo -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i><!-- delete span inlieu place icon cdn link -->
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> 
+                         <ul class="navbar-nav ml-auto text-right">
+                            
+                             <a class="nav-item nav-link" href="index.html">Back to Page1</a>
+                         </ul>
+                      
+                     </div> 
+                </nav>
+            </div>
+            </div>
+</div>
+<!-- content -->
+<div class="content">
+    <h5>For online order, currently we are not accepting online payment. Hence, we kindly ask you to go to Reserve page and 
+        do telephone order and we deliver it to your address or you can come or send someone to collect your order.
+        <br>
+        <strong>Thank you for your understanding and cooperation!</strong> 
+    </h5>
+</div>
+ 
+ 
+</body>
+</html>
